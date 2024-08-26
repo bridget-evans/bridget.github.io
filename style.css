@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: Tahoma;
+}
+.left-section {
+  background-color: rgb(40,54,24);
+  height: 100vh;
+    left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 15%;
+  position: fixed;
+    top: 0;
+  text-align: right;
+  z-index: 1000;
+  padding: 20px;
+}
+.left-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+.left-inner a {
+  color: rgb(254,250,224);
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+.left-inner a:hover {
+  color: rgb(221,161,94);
+  transition: all 0.3s ease;
+}
+.right-section {
+  padding-left: 17%;
+  background-color: rgb(96,108,56);
+}
+.right-section #intro {
+  transform: translateY(0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#intro {
+  padding-left: 50px;
+}
+#intro h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 4rem;
+  color: rgb(188,108,37); 
+}
+#intro p {
+  font-size: 1.2rem;
+}
+#about-me {
+  background-color: rgb(221,161,94);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+#about-me h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: rgb(40,54,24);
+}
+.about-descript {
+  font-size: 1.2rem;
+  padding-right: 10%;
+}
+.about-section-block {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.about-box {
+  border: 3px solid rgb(96,108,56);
+  border-radius: 10px;
+  width: 30%;
+  margin: 0 20px;
+  padding: 10px 20px;
+  background-color: rgb(188,108,37);
+  text-align: center;
+}
+.about-box h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: rgb(40,54,24);
+}
+#about-box p {
+  font-size: 1.2rem;
+}
+#projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+#projects h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: rgb(221,161,94);
+}
+.projects-section-block {
+  display: flex;
+  padding-top: 30px;
+}
+.projects-section-block div {
+  text-align: center;
+}
+.projects-section-block div:nth-child(1) {
+  padding-right: 50px;
+}
+.projects-section-block img {
+  height: 200px;
+  border-radius: 50%;
+}
+#contact-me {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  background-color: rgb(221,161,94);
+}
+#contact-me h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: rgb(40,54,24);
+}
+#contact-me p {
+  font-size: 1.2rem;
+}
+#contact-me form {
+  padding-top: 20px;
+  width: 40%;
+}
+#contact-me form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: rgb(40,54,24);
+  border: none;
+  color: rgb(96,108,56);
+  font-weight: 600;
+  margin-top: 15px;
+}
+#contact-me form button:hover {
+  background-color: rgb(96,108,56);
+  color: rgb(40,54,24);
+  transition: all 0.3s ease-in-out;
+}
+.contact-flex {
+  display: flex;
+  justify-content: flex-start;
+}
+.contact-flex hr {
+  margin: 20px;
+  border: 3px solid rgb(40,54,24);
+}
+.form-flex {
+  display: flex;
+  padding-bottom: 20px;
+}
+.form-flex div {
+  width: 45%;
+}
+.form-flex div input {
+  width: 90%;
+  line-height: 30px;
+  border-radius: 10px;
+  background-color: rgba(96,108,56,0.6);
+  border: none;
+}
+.contact-flex textarea {
+  width: 86%;
+  border-radius: 10px;
+  background-color: rgba(96,108,56,0.6);
+  border: none;
+}
+.contact-flex form, .contact-info {
+  box-shadow: -3px 3px 6px rgb(40,54,24);
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(188,108,37);
+}
+{}
+.contact-info svg {
+  height: 60px;
+}
