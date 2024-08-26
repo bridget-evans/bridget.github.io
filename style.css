@@ -2,6 +2,9 @@ body {
   margin: 0;
   font-family: Tahoma;
 }
+html {
+   scroll-behavior: smooth;
+}
 .left-section {
   background-color: rgb(40,54,24);
   height: 100vh;
