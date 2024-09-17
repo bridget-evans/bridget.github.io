@@ -1,0 +1,39 @@
+Intro
+About me
+Projects
+Contact me
+
+Making Bridget's Resume Website:
+
+1.  Remove parts of header to just have purple background
+2.  Change the words on the navbar to be Intro, About Me, Projects, Contact
+3.  My Name is above the Line, Then a little one-liner under it. 
+	- Link to resume is where Learn More is. Along with Learn more changing to read "Resume"
+	- Delete the picture spot entirely
+4.  Switch Magna... section with Ipsum conse.... section
+5.  Write the About me with the label at the top of it reading "About Me" 
+	- The graphic could be used for saying which langs I know and the skills 
+		I have along with possibly the profiecency levels each of them have. 
+			I.e. -> JavaScript and then under it would say "Intermediate"
+	- Remove Learn More Button
+6.  2 Projects with the 'Magna' section:
+		- It would be cool if you made it clear that the icons above are the button to click on 
+			that lead to another page with screenshots and project descriptions
+		- Remove Learn More button
+	1. Masterclass Moving
+	2. CleanSolutionsTechnologies
+	
+7.  Delete Congue imperdiet Section
+8. Contact me is the Footer. [Ensure that the navbar links correctly to the 
+	footer since by default it does not]
+	- Left side is a form to contact me, Ensure that the form leads to an email I don't care about
+		Since bots like to fill out forms. Alternatively you can use a google form and have the google
+			form lead to its designated form page. (ask Neil)
+	- Right side
+		- No address
+		- Create new email and put it here (Use this email to do all job stuff)
+		- No phone
+		-Icons: LinkedIn, GitHub, CodePen
+		
+****Keep the Design: HTML5 UP.****
+	
