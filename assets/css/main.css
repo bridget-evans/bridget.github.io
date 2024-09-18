@@ -2258,7 +2258,7 @@ input, select, textarea {
 		.icon.major {
 			border: solid 1px;
 			display: inline-block;
-			border-radius: 100%;
+			border-radius: 10%;
 			padding: 0.65em;
 			margin: 0 0 2em 0;
 			cursor: default;
@@ -2300,7 +2300,7 @@ input, select, textarea {
 		}
 		.icon.style1 a img {
 			height: 250px;
-			border-radius: 100%;
+			
 			filter: brightness(0.7);
 			display: block;
 		}
@@ -2314,7 +2314,7 @@ input, select, textarea {
 		}
 		.icon.style3 a img {
 			height: 250px;
-			border-radius: 100%;
+			
 			filter: brightness(0.7);
 			display: block;
 		}
