@@ -3734,7 +3734,7 @@ input, select, textarea {
 		}
 		.proj-flex img {
 			height: 300px;
-			border-radius: 100%;
+			border-radius: 10%;
 			display: block;
 		}
 		.proj-flex div h2:after {
