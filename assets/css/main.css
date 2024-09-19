@@ -3753,6 +3753,12 @@ input, select, textarea {
 			padding-right: 20px;
 		}
 
+		@media screen and (max-width: 930px) {
+			.proj-flex {
+			display: block;
+			}
+		}
+
 /* Footer */
 
 	#footer {
